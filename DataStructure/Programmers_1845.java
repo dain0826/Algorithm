@@ -2,7 +2,7 @@ package DataStructure;
 
 import java.util.*;
 
-class Solution {
+public class Programmers_1845 {
     public int solution(int[] nums) {
         int answer = 0;
         HashSet<Integer> numset = new HashSet<>();
