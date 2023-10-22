@@ -36,6 +36,5 @@ public class Programmers_1844 {
                 }
             }
         }
-
     }
 }
