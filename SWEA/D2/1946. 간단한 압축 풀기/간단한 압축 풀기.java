@@ -57,37 +57,26 @@ class Solution
 
 		for(int test_case = 1; test_case <= T; test_case++)
 		{	
-			System.out.println("#" + test_case);
 			int n = sc.nextInt();
 			char[] alp = new char[n];
 			int[] cnt = new int[n];
-
 			for(int i=0;i<n;i++) {
 				alp[i] = sc.next().charAt(0);
 				cnt[i] = sc.nextInt();
-
 			}
-
-			char[] zip = new char[10];
+			
+			System.out.println("#" + test_case);
+			
 			int save = 0;
 			for(int i=0;i<n;i++) {
 				for(int j=0;j<cnt[i];j++) {
 					if(save == 10) {
-						System.out.println(zip);
+						System.out.println();
 						save = 0;
-						
-						zip[save] = alp[i];
 					}
 					if(save < 10) {
-						zip[save] = alp[i];
+						System.out.print(alp[i]);
 						save++;
-					}
-				}
-			}
-			if(save < 10) {
-				for(int i=0; i < save; i++) {
-					if(zip[i] != '0') {
-						System.out.print(zip[i]);
 					}
 				}
 			}
