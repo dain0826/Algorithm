@@ -74,10 +74,9 @@ class Solution
 						System.out.println();
 						save = 0;
 					}
-					if(save < 10) {
-						System.out.print(alp[i]);
-						save++;
-					}
+					System.out.print(alp[i]);
+					save++;
+
 				}
 			}
 			System.out.println();
