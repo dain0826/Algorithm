@@ -87,7 +87,6 @@ class Solution
 	}
 
 	public static int charArrToInt(char[] nums) {
-		// TODO Auto-generated method stub
 		return Integer.parseInt(new String(nums));
 	}
 }
