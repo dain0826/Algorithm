@@ -28,7 +28,7 @@ public class Ds_1874 {
             else{
                 int n = stack.pop();
                 if(n > su){
-                    System.out.println("No");
+                    System.out.println("NO");
                     result = false;
                     break;
                 }
