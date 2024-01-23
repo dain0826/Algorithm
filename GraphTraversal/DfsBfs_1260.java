@@ -2,7 +2,7 @@ package GraphTraversal;
 
 import java.util.*;
 
-public class DfsBfs_1206 {
+public class DfsBfs_1260 {
     static boolean visited[];
     static ArrayList<Integer>[] A;
 
