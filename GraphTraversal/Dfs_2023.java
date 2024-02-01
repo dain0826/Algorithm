@@ -15,10 +15,8 @@ public class Dfs_2023 {
 
     static void DFS(int num, int jarisu) {
         if(N == jarisu) {
-            if(isPrime(num)){
-                System.out.println(num);
-                return;
-            }
+            System.out.println(num);
+            return;
         }
         for(int i = 1;i<10; i++) {
             if(i%2 == 0) {
@@ -28,7 +26,6 @@ public class Dfs_2023 {
                 DFS(num*10 + i, jarisu + 1);
             }
         }
-        return;
     }
 
     static boolean isPrime(int num) {
