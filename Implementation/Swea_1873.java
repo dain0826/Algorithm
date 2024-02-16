@@ -87,8 +87,6 @@ public class Swea_1873{
                 System.out.println();
             }
         }
-
-
     }
     public static void change(int x, int y, char c){ //현재 위치에서 방향 바꾸기
         if(c == 'U'){ //Up
@@ -108,6 +106,4 @@ public class Swea_1873{
             dir =3 ;
         }
     }
-
-
 }
