@@ -24,7 +24,7 @@ public class Ds_1966 {
                 int[] now = queue.poll();
                 boolean flag = true;
                 for(int i=0; i<queue.size(); i++) {
-                    if(queue.get(i)[1]> now[1]) { //중요도가 더 높은 프린트가 있다면
+                    if(queue.get(i)[1]> now[1]) { //중요도가 더 높은 프린트가 있으면
                         queue.add(now);
                         for (int j = 0; j < i; j++) {
                             queue.add(queue.poll());
