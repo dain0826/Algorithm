@@ -21,13 +21,13 @@ public class Bfs_5014 {
             System.out.println(0);
             return;
         }
-        bfs(S);
+        bfs();
         System.out.println(elev[G] == 0 ? "use the stairs" : elev[G]);
     }
-    public static void bfs(int start){
+    public static void bfs(){
         Queue<Integer> queue = new LinkedList<>();
-        queue.add(start);
-        visited[start] = true;
+        queue.add(S);
+        visited[S] = true;
         while(!queue.isEmpty()){
             int now = queue.poll();
             if(now+U <= F && !visited[now+U]){
